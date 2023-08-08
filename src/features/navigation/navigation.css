@@ -6,11 +6,21 @@
     grid-auto-flow: row;
     grid-gap: 43px;
     position: fixed;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 
 .item {
     width: 40px;
     height: 40px;
     background-color: var(--color-gray);
+    border-radius: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+}
+
+.item:hover {
+    background-color: var(--yellow);
 }
