@@ -1,1 +1,74 @@
 @import '../../styles/variables.css';
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.workInfo {
+    max-width: 60%;
+    align-items: center;
+}
+.workInfo > p {
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    /* Paragraph Progress - 15 */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    color: var(--dark-grey);
+}
+.dateAndLvl {
+    display: flex;
+}
+
+.h4{
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 22.248px */
+    text-transform: capitalize;
+    color: var(--black);
+    margin-bottom: 25px;
+}
+
+.dateAndLvl > p:first-child {
+    color: var(--black);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    /* P-15px paragraph */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
+
+.dateAndLvl > p:last-child {
+    margin-left: 20px;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    /* font-weight: 400; */
+    /* line-height: 50%; */
+    color: var(--white);
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+    border-radius: 1px;
+}
+
+.line {
+    /* margin-top: 10px; */
+    max-width: 93%;
+    border-top: 2px solid var(--color-light-gray);
+    margin: auto;
+}
