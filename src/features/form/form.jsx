@@ -48,6 +48,10 @@ export const Form = () => {
             <Input name='name' label='Your Full Name (Required)' value={formState.name.value} error={formErrorState.name.error} onChange={handleChange} />
             <Input name='email' label='Your Email (Required)' value={formState.email.value} error={formErrorState.email.error} onChange={handleChange} />
             <Input name='subject' label='Subject' value={formState.subject.value} onChange={handleChange} />
+            <div className='textArea'>
+                <label>Your Message</label>
+                <textarea></textarea>
+            </div>
             <button type='submit'>SEND MESSAGE</button>
         </form>
     );

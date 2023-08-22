@@ -1,4 +1,5 @@
 import React from 'react';
+import './input.css';
 
 export const Input = ({name, value, error, label, onChange}) => {
     const handleChange = (event) => {
@@ -7,7 +8,7 @@ export const Input = ({name, value, error, label, onChange}) => {
     }
 
     return (
-        <div>
+        <div className='input'>
             <label>{label}</label>
             <input 
                 type="text" 
