@@ -15,3 +15,10 @@
     grid-auto-flow: row;
     grid-gap: 70px;
 }
+.container_dark {
+    background-color: var(--black);
+}
+
+.container_light {
+    background-color: var(--color-gray);
+}

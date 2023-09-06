@@ -8,10 +8,13 @@ import { ContactInformation } from '../../widgets/ci/cI';
 import { Footer } from '../../widgets/footer/footer';
 import { RightPanel } from '../../widgets/rightPanel/rightPanel';
 import { WORK, EDUCATION } from '../../constants/workHistory';
+import { useTheme } from '../../processes/contextTheme';
 
 export const HomePage = () => {
+  const {theme} = useTheme();
+
   return (
-    <div className="container">
+    <div className={`container container_${theme}`}>
       <Information />
       <div className="inner">
         <Header />
