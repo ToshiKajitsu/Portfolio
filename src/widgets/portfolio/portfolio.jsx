@@ -14,7 +14,10 @@ export const Portfolio = () => {
     const styleContainer = {
         display: 'grid', 
         gridTemplateColumns: '1fr 1fr 1fr',
-        width: '100%' 
+        width: '100%',
+        alignItems: 'center',
+        marginLeft: '6px',
+
     }
     const handleTabClick =(category) => {
         if (category === CATEGORIES[0]) {

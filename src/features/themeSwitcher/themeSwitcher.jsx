@@ -1,5 +1,7 @@
 import React from "react";
 import { useTheme } from "../../processes/contextTheme";
+import themeSwitcherIcon from './image/themeSwitcher.svg';
+import './themeSwitcher.css';
 
 export const ThemeSwitcher = () => {
     const {theme, setTheme} = useTheme();
@@ -11,5 +13,12 @@ export const ThemeSwitcher = () => {
             setTheme('light');
         }
     }
-    return <div onClick={handleClick} >Switcher</div>
+    return <div onClick={handleClick}>
+        <ul>
+            <li className="item_theme">
+               <img src={themeSwitcherIcon} alt='themeSwitcherIcon' /> 
+            </li>
+        </ul>
+        
+    </div>
 }
