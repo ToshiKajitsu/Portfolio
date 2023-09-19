@@ -9,6 +9,9 @@ import { Footer } from '../../widgets/footer/footer';
 import { RightPanel } from '../../widgets/rightPanel/rightPanel';
 import { WORK, EDUCATION } from '../../constants/workHistory';
 import { useTheme } from '../../processes/contextTheme';
+import { PORTFOLIO_INFO } from '../../constants/portfolioInfo';
+import { CONTACT_INFORMATION } from '../../constants/contactInformation';
+
 
 export const HomePage = () => {
   const {theme} = useTheme();
@@ -20,8 +23,8 @@ export const HomePage = () => {
         <Header />
         <WorkHistory name='education' data={EDUCATION} />
         <WorkHistory name='work' data={WORK} />
-        <Portfolio />
-        <ContactInformation />
+        <Portfolio data = {PORTFOLIO_INFO} />
+        <ContactInformation data = {CONTACT_INFORMATION}/>
         <Footer />
       </div>
       <RightPanel />
