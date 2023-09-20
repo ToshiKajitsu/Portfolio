@@ -1,10 +1,15 @@
 import React from 'react';
 import './place.css';
+import PlaceIcon from './placeIcon.svg'
 
 export const Place = () => {
     return (
         <div className='placeContainer'>
-            <img src='' alt="HomeIcon" />
+            <ul>
+                <li className='iconPlace'>
+                  <img src={PlaceIcon} alt="HomeIcon" />  
+                </li>
+            </ul>
             <div className="placeWrapper">
                 <p>Country:</p>
                 <p>Bangladesh</p>

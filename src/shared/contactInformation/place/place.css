@@ -1,5 +1,19 @@
+@import '../../../styles/variables.css';
 
-
+.iconPlace {
+    width: 40px;
+    height: 40px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.placeContainer {
+    background-color: var(--white);
+}
 .placeWrapper {
     display: flex;
     justify-content: space-between;
