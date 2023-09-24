@@ -5,8 +5,17 @@
     width: 100%;
     min-height: 800px;
     margin-top: 70px;
-};
+}
 
 .portfolioInfo {
     width: 438px;
+    margin: 50px auto;
+}
+
+.styleContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    margin-left: 6px;
 }

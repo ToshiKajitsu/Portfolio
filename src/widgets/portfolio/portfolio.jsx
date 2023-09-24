@@ -13,19 +13,6 @@ export const Portfolio = ({data}) => {
     const renderCards = (data) => {
         return data.map((item, index) => <PortfolioCard data={item} key={`${index}_card`} />)
     };
-    const styleContainer = {
-        display: 'grid', 
-        gridTemplateColumns: '1fr 1fr 1fr',
-        width: '100%',
-        alignItems: 'center',
-        marginLeft: '6px',
-
-    }
-
-    const portfolioInfo = {
-        width: '438px',
-        margin: '50px auto',
-    }
 
     const handleTabClick =(category) => {
         if (category === CATEGORIES[0]) {
@@ -38,12 +25,12 @@ export const Portfolio = ({data}) => {
 
     return (
         <Element name='portfolio' className="portfolio">
-            <div style={portfolioInfo}>
+            <div  className='portfolioInfo'>
                 <Header header={data.header} />
                 <Paragraph align='center' text = {data.title} />
             </div>
             <PortfolioTabs onClick = {handleTabClick}/>
-            <div style={styleContainer}>{renderCards(portfolioData)}</div>
+            <div className='styleContainer'>{renderCards(portfolioData)}</div>
         </Element>
     )
 }

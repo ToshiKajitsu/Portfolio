@@ -9,21 +9,9 @@
 
 .ciWrapper {
     display: flex;
-    grid-gap: 30px;
-}
-
-.formBlock {
-    width: 50%;
-    /* background-color: var(--white); */
+    gap: 30px;
 }
 
 .ciBlock {
-    margin-left: 30px;
     width: 50%;
-    /* background-color: var(--white); */
-
-}
-.headerCI {
-    background-color: var(--color-light-gray);
-    color: yellow;
 }

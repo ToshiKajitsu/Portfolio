@@ -2,7 +2,7 @@
 
 form {
     background-color: var(--white);
-    /* padding: 0 24px; */
+    padding: 0 25px 25px 25px;
 }
 
 .errorInput {
@@ -14,17 +14,16 @@ form {
     flex-direction: column;
 }
 .textArea > textarea {
-    width: 100%;
+    width: 99%;
     height: 210px;
     flex-shrink: 0;
     background: var(--color-light-gray);
     border: 0;
-    /* margin-left: 25px; */
     resize: none;
 }
 
 button {
-    margin-top: 25px;
+    margin-top: 26px;
     margin-left: 25px;
     padding: 9px 24px;
     border: 0;
