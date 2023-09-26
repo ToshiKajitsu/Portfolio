@@ -4,4 +4,22 @@
     background-color: var(--white);
     width: 100%;
     height: 600px;
+    display: flex;
+}
+
+.mainHeader {
+    margin: 100px 20px 0 60px;
+}
+
+h1 {
+    color: var(--black);
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.6%; /* 59.328px */
+}
+
+span {
+    color: var(--yellow);
 }
