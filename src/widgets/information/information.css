@@ -5,3 +5,20 @@
     width: 305px;
     min-height: 300px;
 }
+
+.imgInformation {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.imgStatus {
+    position: absolute;
+    top: 110px;
+    left: 190px;
+}
+
+.informationContainer {
+    text-align: center;
+    margin-top: 26px;
+}

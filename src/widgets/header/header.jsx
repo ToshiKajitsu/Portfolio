@@ -11,7 +11,7 @@ export const Header = () => {
             <div className="mainHeader">
                 <h1>I’m Rayan Adlrdard <span>Front-end</span> Developer</h1>
                 <Paragraph text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.' />
-                <button>HIRE ME</button>
+                <button className='headerButton' >HIRE ME</button>
             </div>
             <img src={YourImage} alt="img" />
         </Element>
