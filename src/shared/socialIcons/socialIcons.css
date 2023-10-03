@@ -1,0 +1,22 @@
+@import '../../styles/variables.css';
+
+.socialIconsInformation > ul {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.socialIcons__item {
+    width: 24px;
+    height: 24px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover {
+    background: #ffb300cc;
+}

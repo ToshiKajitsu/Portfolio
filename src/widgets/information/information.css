@@ -22,3 +22,29 @@
     text-align: center;
     margin-top: 26px;
 }
+
+.authorName {
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 22.248px */
+    text-transform: capitalize;
+}
+
+.profession {
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    color: var(--dark-grey);
+}
+
+.lineInformation {
+    margin-top: 25px;
+    max-width: 72%;
+    border-top: 2px solid var(--color-light-gray);
+    margin-left: 40px;
+}
