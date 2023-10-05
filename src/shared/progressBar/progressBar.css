@@ -1,0 +1,37 @@
+@import '../../styles/variables.css';
+
+
+.nameProgressBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainProgressBar {
+    height: 3px;
+    margin-top: 5px;
+    border: 1px solid var(--yellow);
+    border-radius: 5px;
+    position: relative;
+    padding: 1px;
+}
+
+.mainProgressBar > span {
+    display: block;
+    height: 100%;
+    background-color: var(--yellow);
+}
+
+.progressBarContainer {
+    margin: 0 45px;
+}
+
+.nameProgressBar > p {
+    /* font-family: Inter; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 24px; */
+    text-transform: capitalize;
+    color: var(--dark-grey);
+    margin-bottom: 5px;
+}

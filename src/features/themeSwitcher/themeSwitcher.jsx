@@ -16,7 +16,7 @@ export const ThemeSwitcher = () => {
     return <div onClick={handleClick}>
         <ul>
             <li className="item_theme">
-               <img src={themeSwitcherIcon} alt='themeSwitcherIcon' /> 
+               <img className="themeSwitcherBG" src={themeSwitcherIcon} alt='themeSwitcherIcon' /> 
             </li>
         </ul>
         

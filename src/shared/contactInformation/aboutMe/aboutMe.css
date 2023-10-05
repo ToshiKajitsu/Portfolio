@@ -1,0 +1,21 @@
+@import '../../../styles/variables.css';
+
+
+.aboutMeWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMeWrapper > p > span {
+    background-color: var(--yellow);
+    color: var(--black);
+    padding: 2px 5px;
+}
+
+.aboutMeContainer {
+    margin: 0 45px;
+}
+
+.aboutMeStatus {
+    color: var(--green);
+}

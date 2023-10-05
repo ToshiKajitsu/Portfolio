@@ -1,3 +1,5 @@
+@import '../../styles/variables.css';
+
 .item_theme {
     width: 40px;
     height: 40px;
@@ -9,3 +11,6 @@
     cursor: pointer;
 }
 
+.item_theme:hover {
+    background-color: var(--white-font);
+}

@@ -15,7 +15,6 @@ export const WorkHistory = ({name, data}) => {
                 <Header header={data.header} />
                 <Paragraph align='center' text = {data.title} />
             </div>
-            
             <div className="mainInfo">{mainInfo}</div>
         </Element>
     )
