@@ -4,3 +4,7 @@
     width: 108px;
     background-color: var(--white-font);
 }
+.rightPanel_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
+}

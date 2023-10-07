@@ -1,10 +1,12 @@
 import React from 'react';
 import './place.css';
-import PlaceIcon from './placeIcon.svg'
+import PlaceIcon from './placeIcon.svg';
+import { useTheme } from '../../../processes/contextTheme';
 
 export const Place = () => {
+    const {theme} = useTheme();
     return (
-        <div className='placeContainer'>
+        <div className={`placeContainer placeContainer_${theme}`}>
             <ul className='imgPosition'>
                 <li className='iconPlace'>
                   <img src={PlaceIcon} alt="HomeIcon" />  

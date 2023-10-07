@@ -13,4 +13,5 @@
 
 .item_theme:hover {
     background-color: var(--white-font);
+    border-radius: 50%;
 }

@@ -17,7 +17,13 @@
     /* background-color: var(--color-light-gray); */
 }
 .container_dark {
-    background-color: var(--black);
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
+}
+
+.inner_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
 }
 
 .container_light {

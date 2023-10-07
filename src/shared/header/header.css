@@ -11,3 +11,8 @@ line-height: 123.6%;
 text-transform: capitalize;
 text-align: center;
 }
+
+.headerSecondary_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
+}

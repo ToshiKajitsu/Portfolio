@@ -17,3 +17,8 @@
     line-height: 24px; /* 160% */
     text-transform: capitalize;
 }
+
+.footer_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
+}

@@ -19,7 +19,7 @@ export const HomePage = () => {
   return (
     <div className={`container container_${theme}`}>
       <Information />
-      <div className="inner">
+      <div className={`inner inner_${theme}`}>
         <Header />
         <WorkHistory name='education' data={EDUCATION} />
         <WorkHistory name='work' data={WORK} />

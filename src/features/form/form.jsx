@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import {isValidValue} from '../../shared/helpers/validator';
 import { Input } from '../../shared/input/input';
 import  { sendForm } from '../../processes/sendForm';
+import { useTheme } from '../../processes/contextTheme';
 
 import './form.css';
 
 export const Form = () => {
-
+    const {theme} = useTheme();
     const [formState, setFormState] = useState({
         name: {value: ''},
         email: {value: ''},
@@ -45,7 +46,7 @@ export const Form = () => {
 
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className={`form form_${theme}`} onSubmit={handleSubmit}>
             <Input name='name' label='Your Full Name (Required)' value={formState.name.value} error={formErrorState.name.error} onChange={handleChange} />
             <Input name='email' label='Your Email (Required)' value={formState.email.value} error={formErrorState.email.error} onChange={handleChange} />
             <Input name='subject' label='Subject' value={formState.subject.value} onChange={handleChange} />

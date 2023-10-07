@@ -3,14 +3,16 @@ import './information.css';
 import Available from './images/available.png';
 import Profile from './images/profile.svg'
 import { SocialIcons } from '../../shared/socialIcons/socialIcons';
-import { AboutMe } from '../../shared/contactInformation/aboutMe/aboutMe';
+import { AboutMe } from '../../shared/aboutMe/aboutMe';
 import { ProgressBar } from '../../shared/progressBar/progressBar';
 import { ExtraSkills } from '../../shared/extraSkills/extraSkills';
-import DownloadCV from './images/downloadCV.svg'
+import DownloadCV from './images/downloadCV.svg';
+import { useTheme } from '../../processes/contextTheme';
 
 export const Information = () => {
+    const {theme} = useTheme();
     return (
-        <div className="information">
+        <div className={`information information_${theme}`}>
             <div className="informationContainer">
                 <div className="imgInformation">
                     <img src={Profile} alt="" />

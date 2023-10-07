@@ -6,6 +6,11 @@
     height: 100%;
 }
 
+.information_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
+}
+
 .information > button {
     display: flex;
     justify-content: center;

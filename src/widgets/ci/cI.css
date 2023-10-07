@@ -6,6 +6,10 @@
     height: 800px;
     /* margin-top: 70px; */
 }
+.contactInformation_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
+}
 
 .ciWrapper {
     display: flex;

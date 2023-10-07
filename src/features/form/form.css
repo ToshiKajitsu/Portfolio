@@ -1,8 +1,12 @@
 @import '../../styles/variables.css';
 
-form {
+.form {
     background-color: var(--white);
     padding: 0 25px 25px 25px;
+}
+.form_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
 }
 
 .errorInput {

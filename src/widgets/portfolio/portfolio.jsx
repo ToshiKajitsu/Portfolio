@@ -6,9 +6,11 @@ import { PortfolioTabs } from '../../features/portfolioTabs/portfolioTabs';
 import { PortfolioCard } from '../../shared/portfolioCard/portfolioCard';
 import { Header } from '../../shared/header/header';
 import { Paragraph } from '../../shared/paragraph/paragraph';
+import { useTheme } from '../../processes/contextTheme';
 
 
 export const Portfolio = ({data}) => {
+    const {theme} = useTheme();
     const [portfolioData, setPortfolioData] = useState(PORTFOLIO_DATA);
     const renderCards = (data) => {
         return data.map((item, index) => <PortfolioCard data={item} key={`${index}_card`} />)
@@ -24,7 +26,7 @@ export const Portfolio = ({data}) => {
     }
 
     return (
-        <Element name='portfolio' className="portfolio">
+        <Element name='portfolio' className={`portfolio portfolio_${theme}`}>
             <div  className='portfolioInfo'>
                 <Header header={data.header} />
                 <Paragraph align='center' text = {data.title} />

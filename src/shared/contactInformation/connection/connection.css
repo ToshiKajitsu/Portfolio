@@ -16,6 +16,10 @@
     padding: 25px;
     margin-bottom: 18px;
 }
+.connectionContainer_dark {
+    background-color: var(--dark-theme);
+    color: var(--drk-theme-font);
+}
 .connectionWrapper {
     display: flex;
     justify-content: space-between;
