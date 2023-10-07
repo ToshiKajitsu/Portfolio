@@ -28,14 +28,14 @@ export const Information = () => {
                 <div className="lineInformation"></div>
             </div>
             <div className="informationContainer">
-                <h4>Languages</h4>
+                <h4 className={`headerSkills headerSkills_${theme}`} >Languages</h4>
                 <ProgressBar name='Bangla' data='100' />
                 <ProgressBar name='English' data='80' />
                 <ProgressBar name='Spanish' data='60' />
                 <div className="lineInformation"></div>
             </div>
             <div className="informationContainer">
-                <h4>Skills</h4>
+                <h4 className={`headerSkills headerSkills_${theme}`}>Skills</h4>
                 <ProgressBar name='Html' data='95' />
                 <ProgressBar name='Css' data='85' />
                 <ProgressBar name='Js' data='80' />
@@ -44,7 +44,7 @@ export const Information = () => {
                 <div className="lineInformation"></div>
             </div>
             <div className="informationContainer">
-                <h4>Extra Skills</h4>
+                <h4 className={`headerSkills headerSkills_${theme}`}>Extra Skills</h4>
                 <ExtraSkills name='Bootstrap, Materialize' />
                 <ExtraSkills name='Stylus, Sass, Less' />
                 <ExtraSkills name='Gulp, Webpack, Grunt' />

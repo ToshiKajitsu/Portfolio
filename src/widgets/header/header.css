@@ -3,20 +3,25 @@
 .header {
     background-color: var(--white);
     width: 100%;
-    height: 460px;
+    height: 530px;
     display: flex;
+    position: relative;
 }
 
 .header_dark {
     background-color: var(--dark-theme);
     color: var(--drk-theme-font);
 }
-
+.sizeIcon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+}
 .mainHeader {
     margin: 100px 20px 0 60px;
 }
 
-h1 {
+.greetings {
     color: var(--black);
     font-family: Inter;
     font-size: 48px;
@@ -24,11 +29,74 @@ h1 {
     font-weight: 700;
     line-height: 123.6%; /* 59.328px */
 }
+.greetings_dark {
+    color: var(--drk-theme-font);
+}
 
 span {
     color: var(--yellow);
 }
 
 .headerButton {
+    padding: 16px 26px 16px 23px;
     border-radius: 5px;
+    /* margin-bottom: 74px; */
+}
+
+.arrow {
+    align-items: center;
+    margin-left: 6px;
+    margin-bottom: -3px;
+}
+
+.ellipseOne {
+    left: 40px;
+    top: 30px;
+}
+
+.ellipseTwo {
+    left: 108px;
+    top: 492px;
+} 
+
+.rectangleOne {
+    top: 410px;
+    left: 340px;
+}
+
+.ellipseThree {
+    top: 52px;
+    left: 520px;
+}
+
+.ellipseFour {
+    top: 425px;
+    left: 525px;
+}
+
+.rectangleTwo {
+    top: 70px;
+    left: 890px;
+}
+
+.polygon {
+    top: 485px;
+    left: 920px;
+}
+
+.yourImage {
+    padding-right: 60px;
+}
+
+.paragraphHeader {
+    color: var(--dark-grey);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    width: 70%;
 }

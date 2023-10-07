@@ -38,7 +38,7 @@
     margin-bottom: 25px;
 }
 
-.dateAndLvl > p:first-child {
+.position {
     color: var(--black);
     font-kerning: none;
     font-feature-settings: 'calt' off;
@@ -51,7 +51,7 @@
     text-transform: capitalize;
 }
 
-.dateAndLvl > p:last-child {
+.dateExpirience {
     margin-left: 20px;
     font-family: Inter;
     font-size: 10px;
@@ -65,10 +65,17 @@
     padding: 0px 7px;
     border-radius: 1px;
 }
+.dateExpirience_dark {
+    color: var(--dark-theme);
+}
 
 .line {
     /* margin-top: 10px; */
     max-width: 93%;
     border-top: 2px solid var(--color-light-gray);
     margin: auto;
+}
+
+.position_dark {
+    color: var(--drk-theme-font);
 }

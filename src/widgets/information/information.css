@@ -70,7 +70,7 @@
     margin-left: 40px;
 }
 
-.informationContainer > h4 {
+.headerSkills {
     text-align: start;
     margin-left: 45px;
     font-size: 18px;
@@ -80,4 +80,8 @@
     text-transform: capitalize;
     color: var(--black);
     margin-bottom: 15px;
+}
+
+.headerSkills_dark {
+    color: var(--drk-theme-font);
 }
